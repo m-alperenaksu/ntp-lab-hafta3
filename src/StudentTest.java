@@ -32,6 +32,7 @@ public class StudentTest {
 		ortalama = input_d.nextInt();
 		while (ortalama < 0 && ortalama > 100) {
 			System.out.println("Geçerli bir not giriniz: ");
+			ortalama = input_d.nextInt();
 		}
 		
 		Student o2 = new Student(ad, soyad, ortalama);
